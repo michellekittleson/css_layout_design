@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arima', sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    margin: 5px 20px;
+    color: white;
+}
+
+nav {
+    background-color: rgb(213, 40, 187);
+    flex-direction: row;
+}
+
+footer {
+    flex-direction: row;
+    background-color: rgb(213, 40, 187);
+}
+
+main {
+    flex-direction: column;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvhmycsqG2kR7KiEGaDGjVLCzmMG-0AGwBA&s);
+    width: 100%;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
